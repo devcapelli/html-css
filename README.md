@@ -1,8 +1,13 @@
 <style>
     body{
-        background-image: linear-gradient(to right, #2C6AA8, #235586);
+        color: white;
+        background-color: black;
         font-family: Arial, Helvetica, sans-serif;
-        margin: auto;
+    }
+    ul > li{
+        color: white;
+        background-color: black;
+        font-family: Arial, Helvetica, sans-serif;
     }
 </style>
 
