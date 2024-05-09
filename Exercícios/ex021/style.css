@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(to right, #818BE6, #565C99);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+#site{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#título{
+    text-align: center;
+    padding-top: 20px;
+}
+aside > p{
+    background-color: #DAD7D2;
+    color: black;
+    border-radius: 0px;
+}
+header{
+    background-color: #BAB952;
+    border-radius: 10px;
+}
+main{
+    border-radius: 10px;
+    background-color: #BAB952;
+    padding-bottom: 5px;
+}
+#esportes{
+    background-color: #31992E;
+    text-align: justify;
+    margin: 15px;
+    padding: 1px 10px;
+    border-radius: 5px;
+}
+#games{
+    background-color: #1A5C99;
+    text-align: justify;
+    margin: 15px;
+    padding: 1px 10px;
+    border-radius: 5px;
+}
+#verão{
+    background-color: #E6AF03;
+    text-align: justify;
+    margin: 15px;
+    padding: 1px 10px;
+    border-radius: 5px;
+}
+p{
+    border-radius: 5px;
+}
+#especial{
+    background-color: rgb(88, 87, 87);
+    border-radius: 0px;
+    color: rgb(88, 87, 87);
+    box-shadow: 3px 3px 6px 1px rgba(32, 32, 32, 0.527);
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#marca{
+    background-color: rgba(0, 0, 0, 0.459);
+}
+#github:hover{
+    color: black;
+}
+#linkedin:hover{
+    color: #4079af;
+}
+#instagram:hover{
+    color: #E5525D;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    margin-top: 20px;
+}
+a{
+    text-decoration: none;
+}a:hover{
+    text-decoration: underline;
+}
