@@ -5,18 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="estilos/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <title>Media Query</title>
 </head>
 <body>
     <header>
         <h1>Meu Site</h1>
-        <menu>
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+        <menu id="items">
             <ul>
-                <li><a href="#">Opção 1</a></li>
-                <li><a href="#">Opção 2</a></li>
-                <li><a href="#">Opção 3</a></li>
-                <li><a href="#">Opção 4</a></li>
-                <li><a href="#" id="five">Opção 5</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Notícias</a></li>
+                <li><a href="#">Exercícios</a></li>
+                <li><a href="#">Desafios</a></li>
+                <li><a href="#" id="five">Projetos</a></li>
             </ul>
         </menu>
     </header>
@@ -28,5 +30,15 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi neque praesentium amet, consectetur aliquam molestias, magni ipsa quisquam, dolor iste delectus dignissimos quas quae facere. Debitis dignissimos ea explicabo voluptatem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum deserunt pariatur explicabo in, odit architecto nulla consequatur praesentium aspernatur quis inventore asperiores! Placeat praesentium voluptatem temporibus ipsa, perferendis obcaecati laudantium.</p>
         </article>
     </main>
+    <script>
+        function clickMenu(){
+            if (items.style.display == 'block') {
+                items.style.display = 'none'
+            }
+            else {
+                items.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>
