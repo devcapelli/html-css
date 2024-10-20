@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+div.container {
+    display: flex;
+    flex-flow: row wrap-reverse;
+    background-color: lightsalmon;
+}
+
+div.item {
+    background-color: lightskyblue;
+    border: 1px solid black;
+    text-align: center;
+    flex: auto;
+}
